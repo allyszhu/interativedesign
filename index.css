@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
-
 body {
     font-family: 'Roboto Mono', monospace;
 }
@@ -7,6 +6,7 @@ body {
 img {
     width: 40%;
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -56,6 +56,8 @@ img {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 15px;
+    font-size: 14px;
+    max-width: 66%;
 }
 
 .superheading {
@@ -72,7 +74,7 @@ img {
     /* font-family: Futura; */
     font-style: normal;
     font-weight: bold;
-    font-size: 150px;
+    font-size: 30;
     line-height: 0.7;
     text-transform: uppercase;
     padding-left: 80px;
@@ -177,10 +179,8 @@ img {
 
 .subtitle2 {
     /* font-family: Adobe Caslon Pro, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
+    font-style: bold;
+    font-size: 16px;
     color: #000000;
     padding-left: 20px;
     padding-right: 20px;
@@ -189,9 +189,7 @@ img {
 .subtitle3 {
     /* font-family: Adobe Caslon Pro, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
     color: #000000;
     padding-left: 20px;
     padding-right: 20px;
