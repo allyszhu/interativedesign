@@ -70,7 +70,9 @@
                 <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">We began by sketching four different interface ideas for the app (shown below). After looking through all the ideas and discussing which components of each skecth best represented minimum's goals, we created a simple wireframe to guide
                     our prototype design. </h1>
                 <div class="inner-text">
-                    <img src="images/sketch1.jpg"> <img src="images/sketch2.jpg"><br> The main features we decided to keep from the sketches and add to the wireframes were the:
+                    <img src="images/sketch1.jpg"> <img src="images/sketch2.jpg"> <img class="image" src="./images/mvp.png" />
+                    <br> The main features we decided to keep from the sketches and add to the wireframes were the:
+
                     <ul>
                         <li>
                             Bottom nav bar
@@ -88,12 +90,8 @@
                             A "log" feature in the "track" page to allow for users to manually input data not in their transaction history
                         </li>
                     </ul>
-                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">This led to the development of the below wireframes:
-                    </h1>
-
-                    <img class="image" src="./images/mvp.png" />
-                    </p>
                 </div>
+
                 <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">TRACK:
                 </h1>
                 <p class="subtitle3" style="max-width: 66%;">
@@ -110,6 +108,13 @@
                     into new projects, which they can browse in a discover sub section.
                 </p>
                 <br><br>
+                <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">This led to the development of the below wireframes:
+                </h1>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRo4aoeYHDdE2pcPodb3Wmv%2FIterative-Design-UIUX%3Fnode-id%3D365%253A214" allowfullscreen></iframe>
+
+
+                </p>
+
 
             </div>
         </div>
@@ -127,7 +132,8 @@
                     <div class="inner-text" style="color:black;">
                         <img class="image" src=" ./images/style.png " />
                         <p>
-                            We then created the high-fidelitey prototypes from our wireframes, which we presented to our peers and a guest industry critic for feedback. The general consensus was that: <br>
+                            <p class="subtitle3"> We then created the high-fidelitey prototypes from our wireframes, which we presented to our peers and a guest industry critic for feedback. The general consensus was that: <br>
+                            </p>
                             <ul>
                                 <li>
                                     We needed more consistent trainsitions, CTA, and fonts
@@ -139,7 +145,8 @@
                                     Inconsistent use of color-coding for increases/decreases
                                 </li>
 
-                            </ul><br> This led us to develop the following prototype: <br>
+                            </ul><br> This led us to develop a more cohesive style guide in addition to the prototype in the following section: <br>
+                            <img class="image" src=" ./images/components.png " />
                             <br>
 
                         </p>
@@ -157,6 +164,7 @@
 
             <div class='double-column' style="background-color: black">
                 <!-- low fidelity -->
+                <h1 class="subtitle2" style="font-weight: bold; font-style:oblique; color:white"> Tasks to think about: how would you log your daily carbon footprint? How would you add another project to your carbon emissions portfolio? </h1>
                 <div class="row">
                     <div class="inner-text" style="color:white;">
 
@@ -184,7 +192,7 @@
                 <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">In our final step, we conducted our own usability test through a remote user testing service (UserTesting.com), using our newly created, interactive hi-fi prototype.
                 </h1>
                 <div class="inner-text">
-                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">Tasks:
+                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">Tasks given to users:
                     </h1>
                     <p class="subtitle3" style="max-width: 66%;">
                         <ol>
@@ -224,33 +232,53 @@
                         <!-- 1.  <br><br> 2.  <br><br> 3. <br><br> 4. x<br><br> -->
                     </p>
 
-                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">User Responses:</h1>
+                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">User 1 Response not available (not downloading)</h1>
+                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">User 2 Response:</h1>
                     <video width="80%" controls>
                         <source src="images/IMG_6024.mov" type="video/mp4">
                     </video> <br><br>
+                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">User 3 Response:</h1>
                     <video width="80%" controls>
                         <source src="images/IMG_6025.mov" type="video/mp4">
                     </video>
                     <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">Analysis:</h1>
-                    <p class="subtitle3" style="max-width: 66%;"> Overall, the feedback we received was quite positive, with some of the key points summarized below:
+                    <p class="subtitle3"> Overall, the feedback we received was quite positive. User 1 had the hardest time of the three users navigating the app, especially with the first task of tracking which day he emitted the most carbon. He attributed this to the lack
+                        of labeling on the graphs. Because of the nature of the prototype as a mockup with less detail, and hence the graphs were intentionally vague, we believed this made a lot of sense but was not worth modifying in the final iteration.
+                        <br><br> User 2 and 3 had an easier time navigating the interface, and both were quick in being able to identify how to log their footprint in addition to adding a project to their portfolio. Interface-wise however, both had some
+                        issues reading all text, and future design would increase the size of the labels especially on the navigation bar. <br><br> However, overwhelmingly, the first task was somewhat confusing for all users. Only the second user fully
+                        answered the question of which day had the most emissions, as the first user ended up giving up on the task upon not finding the graph informative informative enough, and the third user thinking she had completed the task but only
+                        entering into the submission form. This is largely because the dashboard is not as interactive as the other areas and is simply a static page filled with some graphs and text. The next iteration of designs would make them pop up
+                        and clickable in some areas to make them more engaging. <br><br>Key points from the final questionnaire are summarized below:
                     </p>
-                    <p class="subtitle3" style="max-width: 66%;">
+                    <p class="subtitle3 ">
                         <ol>
                             <li>
                                 Frustrations:
+                                <p class="subtitle3"> letters are way too small, data entry is too hard (too manual; more data points could be automatically collected); weekly graph was uninformative
+                                </p>
                             </li>
                             <li>
                                 Magic Wand:
+                                <p class="subtitle3"> Make the words pop more or change from black to another color; give the app more ways to track data, such as through miles travelled or shower time length timer in the same way fitbits have additional features. This way
+                                    users don't have to manually enter data but simply connect a device.
+                                </p>
                             </li>
                             <li>
                                 Like about the site:
+                                <p class="subtitle3"> Navigation was generally easy; aesthetic is very clean, and traversal is generally intuitive.</p>
                             </li>
                             <li>
-                                Recommend?
+                                Recommend (out of 10)?
+                                <p class="subtitle3"> 7,8,5</p>
                             </li>
                         </ol>
                         <!-- 1.  <br> <br> 2.  <br> <br> 3. 
                         <br><br> 4. F -->
+                    </p>
+                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique">Final changes to interface:</h1>
+                    <p class="subtitle3"> Some final changes we would make based on the feedback received would include making the dashboard more engaging and self-intuitive, because this is the area most people struggled with. One person's comment about the text being not
+                        visible is enough to justify making the text larger, or having an option to being able to do so. Afterall, accessibility has to include everyone! <br><br> For the purpose of the mockup, the quiz and logging information was very
+                        general. The next iteration of designs would test the actual forms themselves and which pieces of information are most logged, and which need to be made easier to log perhaps through automatic entry as one user suggested.
                     </p>
 
                 </div>
@@ -268,13 +296,13 @@
                 <div class="division "> </div>
 
                 <div class='double-column' style="background-color: white ">
-                    <div class="inner-text ">
-                        <p>
-                            CONCLUSIONS
-                        </p>
-                    </div>
+                    <h1 class="subtitle2" style="font-weight: bold; font-style:oblique"> At every step, we received very helpful feedback on how to make the minimum.eco App interface more engaging and intuitive. The initial design we set out with had an intuitive flow and framework, which was something most of our users
+                        and feedback agreed with. The biggest points of change throughout were with the icon designs, text styles, in addition to components style. <br><br> Some next steps for functionality would be to add in a more robust browse section
+                        for users to discover projects to add to their portfolio. We would also work on intergrating the app with existing fitness hardware to help with data collection. And the dashboard would be made more interactive and engaging through
+                        pop ups and buttons. for
                 </div>
             </div>
+        </div>
 </body>
 
 </html>
